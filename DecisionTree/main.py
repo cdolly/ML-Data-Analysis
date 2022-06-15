@@ -29,9 +29,9 @@ features = ['Age', 'Experience', 'Rank', 'Nationality'] # features is used to de
 x = df[features] # The DataFrame containing features
 y = df['Go'] # The DataFrame containing what we wish to predict, which is only 1 column, whether we will go to the comedy show or not.
 
-print(x)
-print("------------------------------------------------") # Visualizes the two new DataFrames and their respective columns.
-print(y)
+ # print(x)
+ # print("------------------------------------------------") # Visualizes the two new DataFrames and their respective columns.
+ # print(y)
 
 dTree = DecisionTreeClassifier() # Creates a decision tree classifier object
 dTree = dTree.fit(x, y) # Fits the two variables to the decision tree
