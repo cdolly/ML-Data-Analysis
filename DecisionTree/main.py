@@ -52,5 +52,5 @@ plt.show()
 # Value, represented as Value = [x, y], illustrates how many of the samples were True or False, with x representing False and y representing True.
 
 # Now we can use the decision tree to predict any new values
-# This will print either a 1 or a 0, meaing Go or Do not go depending on the input.
+# This will print either a 1 or a 0, meaing you should go or you should not go depending on the input.
 print(dtree.predict([[40, 10, 7, 1]]))
