@@ -5,7 +5,6 @@
 
 import matplotlib.pyplot as plt
 import numpy as np
-import scipy as sp
 from sklearn.metrics import r2_score
 #Necessary imports for this project
 
