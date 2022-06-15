@@ -1,6 +1,6 @@
 # Machine Learning with Python
 # Created by Cameron Dolly
-# Goal is to create a simulation of what data analysis would look like using a randomly generated, nomrally distributed, data set.
+# Goal is to create a simulation of what training and testing a dataset would look like using a randomly generated, normally distributed, data set.
 # The idea for this project was obtained through the internet, though the coding and work are my own
 
 import matplotlib.pyplot as plt
