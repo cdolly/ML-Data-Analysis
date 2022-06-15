@@ -37,9 +37,9 @@ dTree = DecisionTreeClassifier() # Creates a decision tree classifier object
 dTree = dTree.fit(x, y) # Fits the two variables to the decision tree
 data = tree.export_graphviz(dtree, out_file=None, feature_names=features) # Creates the visualization of the decision tree
 graph = pydotplus.graph_from_dot_data(data) 
-graph.write_png('mydecisiontree.png') # Saves the png to your computer
+graph.write_png('dTree.png') # Saves the png to your computer
 
-img=pltimg.imread('mydecisiontree.png') # reads the png from your computer and saves it to a variable
+img = pltimg.imread('dTree.png') # reads the png from your computer and saves it to a variable
 imgplot = plt.imshow(img) # Plots the image
 plt.show()
 
